@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Monofett&family=Montserrat:ital,wght@0,400;1,600&display=swap');
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
 h6{
     font-size: 0.75rem;
 }
@@ -14,7 +20,7 @@ h6{
     width:200px;
     height: 200px;
     border-radius: 50%;
-    border:black 5px solid;
+    
 }
 
 .flex-container {
@@ -30,3 +36,25 @@ h6{
     height: 25px;
 }
 
+.mouse-over-animation{
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.mouse-over-animation:hover{
+    transform: scale(1.05);
+}
+
+.bg-dark-gradient{
+    background: rgb(40,49,59);
+background: linear-gradient(45deg, rgba(40,49,59,1) 0%, rgba(56,56,56,1) 100%);
+}
+
+.bg-dark-droptop{
+    background: rgb(156,156,156);
+background: linear-gradient(0deg, rgba(156,156,156,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.font-title{
+    font-family: 'Lilita One', cursive;
+}
